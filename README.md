@@ -7,7 +7,8 @@
 * Fuzzy Finder para nvim ([fzf](https://github.com/junegunn/fzf))
 * Autocomplete para nvim ([ncm2](https://github.com/ncm2/ncm2)), incluindo ([tmux](https://github.com/wellle/tmux-complete.vim))
 * Completamento de pares ([{'""'}]), etc. no nvim ([autopairs](https://github.com/jiangmiao/auto-pairs))
-* Suporte para snippets no nvim([ultisnips](https://github.com/SirVer/ultisnips))
+* Suporte para snippets no nvim ([ultisnips](https://github.com/SirVer/ultisnips))
+* Árvore de diretórios no nvim ([nerdtree](https://github.com/scrooloose/nerdtree))
 
 ## Resumo de pré-requisitos importantes:
 * install tmux

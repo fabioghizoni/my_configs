@@ -12,6 +12,7 @@ Plug 'wellle/tmux-complete.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
@@ -29,3 +30,4 @@ let g:UltiSnipsEditSplit = 'vertical'
 let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
 
 nnoremap <c-f> :Ag<space>
+nnoremap <F1> :NERDTree<Enter>
