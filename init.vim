@@ -8,11 +8,17 @@ Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
+Plug 'ncm2/ncm2-tern', {'do': 'npm install'}
+Plug 'ncm2/ncm2-jedi'
+Plug 'ncm2/ncm2-cssomni'
+Plug 'ncm2/ncm2-ultisnips'
 Plug 'wellle/tmux-complete.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+Plug 'nvie/vim-flake8'
 call plug#end()
 
 autocmd BufEnter * call ncm2#enable_for_buffer()
@@ -22,9 +28,10 @@ colorscheme gruvbox
 set background=dark 
 
 set hidden
-set number
-set relativenumber
 set inccommand=split
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 let g:UltiSnipsEditSplit = 'vertical'
 let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
