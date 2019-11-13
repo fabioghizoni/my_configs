@@ -3,7 +3,7 @@
 #Script para configurar terminal e neovim.
 
 DIR_NVIM=~/.config/nvim
-DIR_FONTS=~/.local/share/fonts
+DIR_FONTS=~/.fonts
 FILE_ZSH=~/.zshrc
 FILE_TMUX=~/.tmux.conf
 
