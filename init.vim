@@ -22,8 +22,10 @@ set background=dark
 set hidden
 set inccommand=split
 set expandtab
+autocmd Filetype json setlocal ts=2 sw=2 sts=2 syntax=json
 autocmd Filetype javascript setlocal ts=2 sw=2 sts=2 syntax=javascript
 autocmd Filetype python setlocal sts=4 sw=4 wrap
+autocmd Filetype lua setlocal sts=4 sw=4 syntax=lua
 
 let g:UltiSnipsEditSplit = 'vertical'
 let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
