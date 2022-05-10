@@ -10,6 +10,7 @@
     * Árvore de diretórios no nvim ([nerdtree](https://github.com/scrooloose/nerdtree))
 
 ## Resumo de pré-requisitos importantes:
+    * Alterar o path do oh-my-zsh em zshrc
     * install tmux
     * install zsh
     * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
